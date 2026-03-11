@@ -65,19 +65,6 @@
 </p>
 </header>
 
-<p align="center">
-	<b><i>Reprodue nm command on Linux</i></b><br>
-</p>
-
-<p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/jdecorte-be/42-Ft_nm?color=lightblue" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/jdecorte-be/42-Ft_nm?color=critical" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/jdecorte-be/42-Ft_nm?color=yellow" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jdecorte-be/42-Ft_nm?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jdecorte-be/42-Ft_nm?color=green" />
-</p>
-My implementation of 42 NM. Works on x86, x64, object files and dynamic lib .so files.
-Similar to the GNU system nm command with differences.
 
 ## Useful links
 [ELF reference](https://man7.org/linux/man-pages/man5/elf.5.html)
