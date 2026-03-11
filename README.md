@@ -1,6 +1,69 @@
+<header>
 <h1 align="center">
-	📖 Ft_nm
+  <a href="https://github.com/jdecorte-be/ft-nm"><img src=".assets/banner.png" alt="ft-nm" ></a>
+  ft-nm
+  <br>
 </h1>
+
+<p align="center">
+  A C implementation of the GNU 'nm' command for Linux. Parses ELF-32 and ELF-64 files to list symbols from object files and shared libraries (.so).
+</p>
+
+<p align="center">
+<a href="https://www.42.fr/">
+    <img src="https://img.shields.io/badge/42-School%20Project-00BABC?logo=42&logoColor=white&labelColor=000000"
+         alt="42 School Project">
+  </a>
+<a href="https://en.wikipedia.org/wiki/Binary_code">
+    <img src="https://img.shields.io/badge/Focus-Binary%20Analysis-1f425f?logo=c&logoColor=white&labelColor=000000"
+         alt="Focus Binary Analysis">
+  </a>
+<a href="https://en.wikipedia.org/wiki/Command-line_interface">
+    <img src="https://img.shields.io/badge/Type-CLI%20Tool-555555?logo=gnubash&logoColor=white&labelColor=000000"
+         alt="Type CLI Tool">
+  </a>
+<a href="https://www.linux.org/">
+    <img src="https://img.shields.io/badge/Platform-Linux-FCC624?logo=linux&logoColor=white&labelColor=000000"
+         alt="Platform Linux">
+  </a>
+</p>
+
+<p align="center">
+<a href="https://en.wikipedia.org/wiki/Executable_and_Linkable_Format">
+    <img src="https://img.shields.io/badge/Technology-ELF%20Parser-77216F?logo=c&logoColor=white&labelColor=000000"
+         alt="Technology ELF Parser">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-nm">
+    <img src="https://img.shields.io/badge/platform-Linux-000000?logo=linux&logoColor=white"
+         alt="ft-nm Linux">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-nm/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-AE81FF?labelColor=000000"
+         alt="ft-nm license">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-nm/stargazers">
+    <img src="https://img.shields.io/github/stars/jdecorte-be/ft-nm?logo=star&logoColor=white&labelColor=000000&color=E6DB74"
+         alt="ft-nm stars">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-nm/issues">
+    <img src="https://img.shields.io/github/issues/jdecorte-be/ft-nm?logoColor=white&labelColor=000000&color=orange"
+         alt="ft-nm issues">
+  </a>
+  <a href="https://github.com/jdecorte-be/ft-nm">
+    <img src="https://img.shields.io/github/repo-size/jdecorte-be/ft-nm?logo=database&logoColor=white&labelColor=000000&color=AE81FF"
+         alt="ft-nm repo size">
+  </a>
+</p>
+<p align="center">
+  <a href="#useful-links">Useful links</a> •
+  <a href="#background-knowledage">Background knowledage</a> •
+  <a href="#tools-to-use-to-develope">Tools to use to develope</a> •
+  <a href="#gnu-nm">GNU NM</a> •
+  <a href="#elf">ELF</a> •
+  <a href="#elf-header-ehdr">ELF header (Ehdr)</a> •
+  <a href="#ps">ps:</a>
+</p>
+</header>
 
 <p align="center">
 	<b><i>Reprodue nm command on Linux</i></b><br>
@@ -260,4 +323,4 @@ Big-endian: Stores the Most Significant Byte (MSB) of the data word in the small
 
 Little-endian: Stores the Least Significant Byte (LSB) of the data word in the smallest address in memory.
 
-If file endian is not the same endian with the machine, a endian reverse must be applied to the data read from the file to make sure the data is correct. The key point is the all data with a size over 8bits must perform this reverse(because endian only affect data over 8bits). Macros imported from machine is the same endian with the machine so when doing macro comparision, the endian need to take into consideration. 
+If file endian is not the same endian with the machine, a endian reverse must be applied to the data read from the file to make sure the data is correct. The key point is the all data with a size over 8bits must perform this reverse(because endian only affect data over 8bits). Macros imported from machine is the same endian with the machine so when doing macro comparision, the endian need to take into consideration.
